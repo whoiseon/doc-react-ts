@@ -1,0 +1,34 @@
+.docs-title-btn {
+  display: flex;
+  padding: 12px 12px;
+  transition: background-color 0.16s ease-in;
+  font-weight: bold;
+  align-items: center;
+}
+
+.docs-title-btn:hover {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-radius: 4px;
+}
+
+.docs-title-btn .docs-arrow-img {
+  width: 10px;
+  height: 10px;
+  fill: #FFFFFF;
+  margin-left: 10px;
+  transform: rotateX(0deg);
+  transition: -webkit-transform 0.2s ease 0s, transform 0.2s ease 0s;
+}
+
+.docs-title-btn .active-arrow {
+  transform: rotateX(180deg);
+}
+
+.docs-list-wrapper li {
+  margin-top: 12px;
+  color: #9797B7;
+}
+
+.docs-list-wrapper li a {
+  color: inherit;
+}

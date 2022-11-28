@@ -1,0 +1,29 @@
+.layout-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding-top: 100px;
+}
+
+.container {
+  display: flex;
+  width: 1280px;
+}
+
+.content {
+  width: 80%;
+  margin-right: 4rem;
+}
+
+.docs-list {
+  position: sticky;
+  top: 100px;
+  width: 20%;
+  max-height: 100vh;
+  overflow-y: scroll;
+  align-self: flex-start;
+}
+
+.docs-list > div {
+  margin-bottom: 1rem;
+}

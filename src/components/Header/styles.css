@@ -1,0 +1,16 @@
+.header {
+  margin-bottom: 4rem;
+}
+
+.header > h1 {
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+
+.header a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: #5D61ED;
+  border-radius: 6px;
+}
